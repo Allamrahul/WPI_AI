@@ -1,0 +1,69 @@
+C:\Users\allam\AppData\Local\Programs\Python\Python39\python.exe D:/Work/WPI/Fall2021/AI/Assignment/code/aima-python-master/simple_reflex_agent.py
+
+Evaluating percept  1
+(Percept; Robot locn): [A, Clean, B, Clean; A] 
+Action: ['NoOp']
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 1, {'A': 'Clean', 'B': 'Clean'}, A, 0, 0
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  2
+(Percept; Robot locn): [A, Clean, B, Clean; B] 
+Action: ['NoOp']
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 2, {'A': 'Clean', 'B': 'Clean'}, B, 0, 0
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  3
+(Percept; Robot locn): [A, Clean, B, Dirty; A] 
+Action: ['Right', 'Suck']
+Correct action. Incrementing a point per action
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 3, {'A': 'Clean', 'B': 'Clean'}, B, 2, 2
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  4
+(Percept; Robot locn): [A, Clean, B, Dirty; B] 
+Action: ['Suck']
+Correct action. Incrementing a point per action
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 4, {'A': 'Clean', 'B': 'Clean'}, B, 1, 3
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  5
+(Percept; Robot locn): [A, Dirty, B, Clean; A] 
+Action: ['Suck']
+Correct action. Incrementing a point per action
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 5, {'A': 'Clean', 'B': 'Clean'}, A, 1, 4
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  6
+(Percept; Robot locn): [A, Dirty, B, Clean; B] 
+Action: ['Left', 'Suck']
+Correct action. Incrementing a point per action
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 6, {'A': 'Clean', 'B': 'Clean'}, A, 2, 6
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  7
+(Percept; Robot locn): [A, Dirty, B, Dirty; A] 
+Action: ['Suck', 'Right', 'Suck']
+Correct action. Incrementing a point per action
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 7, {'A': 'Clean', 'B': 'Clean'}, B, 3, 9
+
+---------------------------------------------------------------------------------------------
+
+Evaluating percept  8
+(Percept; Robot locn): [A, Dirty, B, Dirty; B] 
+Action: ['Suck', 'Left', 'Suck']
+Correct action. Incrementing a point per action
+(#Percept, Configuration State, Robot locn, Percept score, Total Score) : 8, {'A': 'Clean', 'B': 'Clean'}, A, 3, 12
+
+---------------------------------------------------------------------------------------------
+
+Performance score for each configuration:  [0, 0, 2, 3, 4, 6, 9, 12]
+
+Average score:  1.5
+
+Process finished with exit code 0
